@@ -37,31 +37,8 @@ class DataCubit extends Cubit<List<Data>> {
   }
 }
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('BLoC'),
-        ),
-        body: BlocProvider(
-          create: (context) => DataCubit(),
-          child: const DataListView(),
-        ),
-      ),
-    );
-  }
-}
-
 class DataListView extends StatelessWidget {
-  const DataListView({Key? key}) : super(key: key);
+  const DataListView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,6 +61,29 @@ class DataListView extends StatelessWidget {
           );
         }
       },
+    );
+  }
+}
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('BLoC'),
+        ),
+        body: BlocProvider(
+          create: (context) => DataCubit(),
+          child: const DataListView(),
+        ),
+      ),
     );
   }
 }
