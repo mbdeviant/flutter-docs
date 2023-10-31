@@ -55,14 +55,14 @@ class MyApp extends StatelessWidget {
           title: const Text('riverpod'),
         ),
         body: Consumer(
-          builder: (conbody, ref, child) {
+          builder: (context, ref, child) {
             final dataList = ref.watch(dataListProvider);
 
             return dataList.when(
                 data: (data) {
                   return ListView.builder(
                     itemCount: data.length,
-                    itemBuilder: (conbody, index) {
+                    itemBuilder: (context, index) {
                       return ListTile(
                         title: Text(data[index].title),
                         subtitle: Text(data[index].body),
