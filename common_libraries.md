@@ -398,7 +398,7 @@ flutter pub run flutter_launcher_icons
 
 ## google_fonts
 
-[fonts.google.com](fonts.google.com) fontlarını uygulama içerisinde kullanmayı sağlar.
+[fonts.google.com](https://fonts.google.com/) fontlarını uygulama içerisinde kullanmayı sağlar.
 Font üzerinde stil değişikliğine izin verir.
 
 ```dart
