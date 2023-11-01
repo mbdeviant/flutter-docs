@@ -584,10 +584,6 @@ if (result != null) {
 
 ```
 
-```bash
-
-developer's note;
-
-this article only contains the main features of stated libraries. for detailed information, please check the library's documentation.
-
-```
+> developers note;
+>
+> this article only contains the main features of stated libraries. for detailed information, please check the library documentation
