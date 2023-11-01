@@ -539,7 +539,7 @@ AutoSizeText(
 
 ## file_picker
 
-Uygulama içerisinden cihaz dosya yöneticisini kullanarakdosya seçmek için kullanılır.
+Uygulama içerisinden cihaz dosya yöneticisini kullanarak dosya seçmek için kullanılır.
 Seçilecek dosyanın uzantısını belirleme esnekliği sunar.
 
 ```dart
