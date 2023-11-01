@@ -500,7 +500,7 @@ Future<Position> _determinePosition() async {
 
 ## intl
 
-Tarih, para birimi veya metin çevirisi gibi işlemleri kullanıcının konuumuna göre yerelleştirmek için kullanılır.
+Tarih, para birimi veya metin çevirisi gibi işlemleri kullanıcının konumuna göre yerelleştirmek için kullanılır.
 
 ```dart
 
