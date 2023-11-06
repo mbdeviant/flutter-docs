@@ -361,41 +361,6 @@ await storage.delete(key: 'my_key');
 
 ```
 
-## flutter_launcher_icons
-
-Flutter uygulamasının başlatma simgesini güncellemek için kullanılır. Minimum SDK versiyonu seçme ve hangi platformlar için güncelleneceğini seçme esnekliği verir.
-
-```dart
-
-flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/icon/icon.png"
-  min_sdk_android: 21
-  web:
-    generate: true
-    image_path: "path/to/image.png"
-    background_color: "#hexcode"
-    theme_color: "#hexcode"
-  windows:
-    generate: true
-    image_path: "path/to/image.png"
-    icon_size: 48
-  macos:
-    generate: true
-    image_path: "path/to/image.png"
-
-```
-
-pubspec.yaml içerisinde konfigürasyon yapıldıktan sonra konsol üzerinden çalıştırılır.
-
-```bash
-
-flutter pub get
-flutter pub run flutter_launcher_icons
-
-```
-
 ## google_fonts
 
 [fonts.google.com](https://fonts.google.com/) fontlarını uygulama içerisinde kullanmayı sağlar.
