@@ -1115,3 +1115,7 @@ AwesomeDialog(
             )..show();
 
 ```
+
+> developer's note;
+>
+> this article only contains the main features of stated libraries. for detailed information, please check the library documentation
